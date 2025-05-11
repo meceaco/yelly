@@ -1,0 +1,26 @@
+﻿body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	position: relative;
+	flex-grow: 1;
+}
+
+.site-text {
+	position: absolute;
+}
+
+main::before {
+	background-image: url('https://github.com/erv1988/Web-development-tasks-v2024/blob/master/02/img/mosaic.jpg?raw=true');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	filter: blur(10px);
+	content: '';
+}

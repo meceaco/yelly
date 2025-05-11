@@ -1,0 +1,5 @@
+﻿body {
+	background-image: url('https://github.com/erv1988/Web-development-tasks-v2024/blob/master/02/img/mosaic.jpg?raw=true');
+	background-size: 100px 100px;
+	background-repeat: repeat-x space repeat-y;
+}

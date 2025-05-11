@@ -1,0 +1,21 @@
+﻿.Coca-Cola {
+	list-style-type: lower-alpha;
+}
+
+.Pepsi {
+	list-style-type: square;
+}
+
+.Healthy {
+	list-style-type: armenian;
+}
+
+.Web-developer {
+	list-style-type: none;
+}
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+h1, p, li {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}

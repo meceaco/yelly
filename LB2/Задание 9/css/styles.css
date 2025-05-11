@@ -1,0 +1,17 @@
+﻿button {
+    width: 300px;
+    height: 50px;
+    border-color: #aaa #000 #000 #aaa;
+    font-size: 15pt;
+    background-color: rgb(255, 0, 0);
+}
+clicked {
+    width: 50px;
+    height: 300px;
+    border-color: #aaa #000 #000 #aaa;
+    font-size: 15pt;
+    background-color: rgb(255, 0, 0);
+}
+button:active {
+    border-color: #000 #aaa #aaa #000;
+  }

@@ -1,0 +1,22 @@
+﻿#my-first-div {
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    
+}
+
+#the-second-one {
+    width: 700px;
+    border: 1px solid black;
+    height: 400px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 0.8em;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
