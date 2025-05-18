@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Игра Угадай пару</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<h1>Игра: Угадай пару</h1>
+<audio id="backgroundMusic" loop autoplay>
+        <source src="audio/music.mp3" type="audio/mp3">
+</audio>
+
+<section id="settings" aria-label="Настройки игры">
+  <label for="cardCountInput">Количество карточек (четное, 4-36): </label>
+  <input type="number" id="cardCountInput" min="4" max="36" step="2" value="12" />
+  <button id="startBtn" aria-label="Начать игру">Начать игру</button>
+</section>
+
+<section id="gameInfo" aria-live="polite" aria-atomic="true"></section>
+<section id="boardContainer" aria-label="Игровое поле" role="grid"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
