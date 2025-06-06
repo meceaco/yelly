@@ -10,6 +10,11 @@
 </head>
 <body>
   <div id="myDiv"></div>
-  <script type="text/babel" src="app.jsx"></script>
+  <script type="text/babel">
+    let age = "22";
+    let name = "Ilya";
+    let output = <span>{name} is {age} years old</span>;
+    ReactDOM.render(output, document.querySelector("#myDiv"));
+  </script>
 </body>
 </html>
